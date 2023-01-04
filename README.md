@@ -1,7 +1,7 @@
 # TODO
 
 - [x] Make basic "hello world" application given demo online. 
-- [ ]
+- [ ] Get function call code working; make sure to leave notes along the way
 
 
 # NOTES
