@@ -1,6 +1,6 @@
 # TODO
 
-= [x] Make basic "hello world" application given demo online. 
+- [x] Make basic "hello world" application given demo online. 
 - [ ] 
 
 
