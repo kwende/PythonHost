@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Python310\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Python310\libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Ocuvera\Dependencies\python_279524961D\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Ocuvera\Dependencies\python_279524961D\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>C:\Python38\include;$(IncludePath)</IncludePath>
@@ -116,7 +116,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>python310.lib;python3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>python38.lib;python3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

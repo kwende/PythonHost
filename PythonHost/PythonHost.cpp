@@ -32,6 +32,8 @@ void runSimpleString(int argc, char* argv[])
 
 int executePythonFile(int argc, char* argv[])
 {
+    //https://stackoverflow.com/questions/61405216/how-to-set-up-virtualenv-on-windows-10-for-embedded-python
+
     PyObject* pName, * pModule, * pFunc;
     PyObject* pArgs, * pValue;
     int i;
